@@ -1,4 +1,4 @@
-import mylib
+from mylibfol.mylib import test
 
-t=mylib.test()
+t=test()
 t.chap()
