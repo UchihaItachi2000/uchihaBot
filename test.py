@@ -1,19 +1,12 @@
-nums=[1,3,6,3,5,2,3,3,1,1,6]
-nums.sort()
-#[1, 1, 1, 2, 3, 3, 3 , 3 , 5, 6, 6]
-c=0
-max=-1
-dict={}
-for i in range(0,len(nums)):
-    for j in range(0, len(nums)):
-        if nums[i]==nums[j]:
-            c=c+1
-        else:
-            max=nums[i]
-            dict[max]=c
-            i=j+1
-            c=0
-
-
-
-print(dict)
+text="best programming language is C and C is what you must learn C in 1400"
+print(text.replace("C","Python",1))
+#best programming language is Python and C is what you must learn C in 1400
+print(text.replace("C","Python",2))
+#best programming language is Python and Python is what you must learn C in 1400
+print(text.replace("C","Python",3))
+#best programming language is Python and Python is what you must learn Python in 1400
+print(text)
+#best programming language is C and C is what you must learn C in 1400
+text="best programming language is C and C is what you must learn C in 1400"
+print(text.replace("C","Python"))
+#best programming language is Python and Python is what you must learn Python in 1400

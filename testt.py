@@ -1,0 +1,5 @@
+num1=input("Enter num1 :\n")
+a=int(num1)
+num2=input("Enter num2 :\n")
+b=int(num2)
+print(a*b)
