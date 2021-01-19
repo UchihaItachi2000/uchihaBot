@@ -17,7 +17,8 @@ def cht0():
         # ایجاد صفحه مورد نظر توسط بات
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
-        time.sleep(10)
+        # print()
+        time.sleep(15)
         print('OK')
         chrome.close()
 def cht1():
@@ -30,9 +31,10 @@ def cht1():
         # ایجاد صفحه مورد نظر توسط بات
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
-        time.sleep(10)
+        # print()
+        time.sleep(15)
         print('OK')
-        #chrome.close()
+        chrome.close()
 def cht2():
     while 1==1:
         # مشخص کردن ویژگی های مورد نیاز
@@ -43,7 +45,8 @@ def cht2():
         # ایجاد صفحه مورد نظر توسط بات
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
-        time.sleep(10)
+        # print()
+        time.sleep(15)
         print('OK')
         chrome.close()
 def cht3():
@@ -56,7 +59,8 @@ def cht3():
         # ایجاد صفحه مورد نظر توسط بات
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
-        time.sleep(10)
+        # print()
+        time.sleep(15)
         print('OK')
         chrome.close()
 def cht4():
@@ -69,7 +73,8 @@ def cht4():
         # ایجاد صفحه مورد نظر توسط بات
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
-        time.sleep(10)
+        # print()
+        time.sleep(15)
         print('OK')
         chrome.close()
 def cht5():
@@ -82,7 +87,8 @@ def cht5():
         # ایجاد صفحه مورد نظر توسط بات
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
-        time.sleep(10)
+        # print()
+        time.sleep(15)
         print('OK')
         chrome.close()
 def cht6():
@@ -95,7 +101,8 @@ def cht6():
         # ایجاد صفحه مورد نظر توسط بات
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
-        time.sleep(10)
+        # print()
+        time.sleep(15)
         print('OK')
         chrome.close()
 def cht7():
@@ -108,7 +115,8 @@ def cht7():
         # ایجاد صفحه مورد نظر توسط بات
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
-        time.sleep(10)
+        # print()
+        time.sleep(15)
         print('OK')
         chrome.close()
 def cht8():
@@ -121,7 +129,8 @@ def cht8():
         # ایجاد صفحه مورد نظر توسط بات
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
-        time.sleep(10)
+        # print()
+        time.sleep(15)
         print('OK')
         chrome.close()
 def cht9():
@@ -134,9 +143,141 @@ def cht9():
         # ایجاد صفحه مورد نظر توسط بات
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
-        time.sleep(10)
+        # print()
+        time.sleep(15)
         print('OK')
         chrome.close()
+# def cht10():
+#     while 1==1:
+#         # مشخص کردن ویژگی های مورد نیاز
+#         op = webdriver.ChromeOptions()
+#         op.add_argument("--disable-notifications")
+#         prefs = {"profile.default_content_setting_values.geolocation" :2}
+#         op.add_experimental_option("prefs",prefs)
+#         # ایجاد صفحه مورد نظر توسط بات
+#         chrome=webdriver.Chrome(options=op)
+#         chrome.get('...')
+#         # print()
+#         time.sleep(15)
+#         print('OK')
+#         chrome.close()
+# def cht11():
+#     while 1==1:
+#         # مشخص کردن ویژگی های مورد نیاز
+#         op = webdriver.ChromeOptions()
+#         op.add_argument("--disable-notifications")
+#         prefs = {"profile.default_content_setting_values.geolocation" :2}
+#         op.add_experimental_option("prefs",prefs)
+#         # ایجاد صفحه مورد نظر توسط بات
+#         chrome=webdriver.Chrome(options=op)
+#         chrome.get('...')
+#         time.sleep(15)
+#         print('OK')
+#         chrome.close()
+# def cht12():
+#     while 1==1:
+#         # مشخص کردن ویژگی های مورد نیاز
+#         op = webdriver.ChromeOptions()
+#         op.add_argument("--disable-notifications")
+#         prefs = {"profile.default_content_setting_values.geolocation" :2}
+#         op.add_experimental_option("prefs",prefs)
+#         # ایجاد صفحه مورد نظر توسط بات
+#         chrome=webdriver.Chrome(options=op)
+#         chrome.get('...')
+#         time.sleep(15)
+#         print('OK')
+#         chrome.close()
+# def cht13():
+#     while 1==1:
+#         # مشخص کردن ویژگی های مورد نیاز
+#         op = webdriver.ChromeOptions()
+#         op.add_argument("--disable-notifications")
+#         prefs = {"profile.default_content_setting_values.geolocation" :2}
+#         op.add_experimental_option("prefs",prefs)
+#         # ایجاد صفحه مورد نظر توسط بات
+#         chrome=webdriver.Chrome(options=op)
+#         chrome.get('...')
+#         time.sleep(15)
+#         print('OK')
+#         chrome.close()
+# def cht14():
+#     while 1==1:
+#         # مشخص کردن ویژگی های مورد نیاز
+#         op = webdriver.ChromeOptions()
+#         op.add_argument("--disable-notifications")
+#         prefs = {"profile.default_content_setting_values.geolocation" :2}
+#         op.add_experimental_option("prefs",prefs)
+#         # ایجاد صفحه مورد نظر توسط بات
+#         chrome=webdriver.Chrome(options=op)
+#         chrome.get('...')
+#         time.sleep(15)
+#         print('OK')
+#         chrome.close()
+# def cht15():
+#     while 1==1:
+#         # مشخص کردن ویژگی های مورد نیاز
+#         op = webdriver.ChromeOptions()
+#         op.add_argument("--disable-notifications")
+#         prefs = {"profile.default_content_setting_values.geolocation" :2}
+#         op.add_experimental_option("prefs",prefs)
+#         # ایجاد صفحه مورد نظر توسط بات
+#         chrome=webdriver.Chrome(options=op)
+#         chrome.get('...')
+#         time.sleep(15)
+#         print('OK')
+#         chrome.close()
+# def cht16():
+#     while 1==1:
+#         # مشخص کردن ویژگی های مورد نیاز
+#         op = webdriver.ChromeOptions()
+#         op.add_argument("--disable-notifications")
+#         prefs = {"profile.default_content_setting_values.geolocation" :2}
+#         op.add_experimental_option("prefs",prefs)
+#         # ایجاد صفحه مورد نظر توسط بات
+#         chrome=webdriver.Chrome(options=op)
+#         chrome.get('...')
+#         time.sleep(15)
+#         print('OK')
+#         chrome.close()
+# def cht17():
+#     while 1==1:
+#         # مشخص کردن ویژگی های مورد نیاز
+#         op = webdriver.ChromeOptions()
+#         op.add_argument("--disable-notifications")
+#         prefs = {"profile.default_content_setting_values.geolocation" :2}
+#         op.add_experimental_option("prefs",prefs)
+#         # ایجاد صفحه مورد نظر توسط بات
+#         chrome=webdriver.Chrome(options=op)
+#         chrome.get('...')
+#         time.sleep(15)
+#         print('OK')
+#         chrome.close()
+# def cht18():
+#     while 1==1:
+#         # مشخص کردن ویژگی های مورد نیاز
+#         op = webdriver.ChromeOptions()
+#         op.add_argument("--disable-notifications")
+#         prefs = {"profile.default_content_setting_values.geolocation" :2}
+#         op.add_experimental_option("prefs",prefs)
+#         # ایجاد صفحه مورد نظر توسط بات
+#         chrome=webdriver.Chrome(options=op)
+#         chrome.get('...')
+#         time.sleep(15)
+#         print('OK')
+#         chrome.close()
+# def cht19():
+#     while 1==1:
+#         # مشخص کردن ویژگی های مورد نیاز
+#         op = webdriver.ChromeOptions()
+#         op.add_argument("--disable-notifications")
+#         prefs = {"profile.default_content_setting_values.geolocation" :2}
+#         op.add_experimental_option("prefs",prefs)
+#         # ایجاد صفحه مورد نظر توسط بات
+#         chrome=webdriver.Chrome(options=op)
+#         chrome.get('...')
+#         time.sleep(15)
+#         print('OK')
+#         chrome.close()
 
 x0 = threading.Thread(target=cht0)
 x1 = threading.Thread(target=cht1)
@@ -148,7 +289,16 @@ x6 = threading.Thread(target=cht6)
 x7 = threading.Thread(target=cht7)
 x8 = threading.Thread(target=cht8)
 x9 = threading.Thread(target=cht9)
-
+# x10 = threading.Thread(target=cht10)
+# x11 = threading.Thread(target=cht11)
+# x12 = threading.Thread(target=cht12)
+# x13 = threading.Thread(target=cht13)
+# x14 = threading.Thread(target=cht14)
+# x15 = threading.Thread(target=cht15)
+# x16 = threading.Thread(target=cht16)
+# x17 = threading.Thread(target=cht17)
+# x18 = threading.Thread(target=cht18)
+# x19 = threading.Thread(target=cht19)
 
 x0.start()
 x1.start()
@@ -160,3 +310,13 @@ x6.start()
 x7.start()
 x8.start()
 x9.start()
+# x10.start()
+# x11.start()
+# x12.start()
+# x13.start()
+# x14.start()
+# x15.start()
+# x16.start()
+# x17.start()
+# x18.start()
+# x19.start()
