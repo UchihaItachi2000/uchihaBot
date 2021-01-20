@@ -1,11 +1,11 @@
+# View Version 1.0
 # مشخص کردن ماژول های مورد نیاز
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+
 import threading
 import time
-
-
 
 def cht0():
     while 1==1:
