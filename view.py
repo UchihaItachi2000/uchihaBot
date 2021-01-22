@@ -18,7 +18,7 @@ def cht0():
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
         # print()
-        time.sleep(15)
+        time.sleep(30)
         print('OK')
         chrome.close()
 def cht1():
@@ -32,7 +32,7 @@ def cht1():
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
         # print()
-        time.sleep(15)
+        time.sleep(30)
         print('OK')
         chrome.close()
 def cht2():
@@ -46,7 +46,7 @@ def cht2():
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
         # print()
-        time.sleep(15)
+        time.sleep(30)
         print('OK')
         chrome.close()
 def cht3():
@@ -60,7 +60,7 @@ def cht3():
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
         # print()
-        time.sleep(15)
+        time.sleep(30)
         print('OK')
         chrome.close()
 def cht4():
@@ -74,7 +74,7 @@ def cht4():
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
         # print()
-        time.sleep(15)
+        time.sleep(30)
         print('OK')
         chrome.close()
 def cht5():
@@ -88,7 +88,7 @@ def cht5():
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
         # print()
-        time.sleep(15)
+        time.sleep(30)
         print('OK')
         chrome.close()
 def cht6():
@@ -102,7 +102,7 @@ def cht6():
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
         # print()
-        time.sleep(15)
+        time.sleep(30)
         print('OK')
         chrome.close()
 def cht7():
@@ -116,7 +116,7 @@ def cht7():
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
         # print()
-        time.sleep(15)
+        time.sleep(30)
         print('OK')
         chrome.close()
 def cht8():
@@ -130,7 +130,7 @@ def cht8():
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
         # print()
-        time.sleep(15)
+        time.sleep(30)
         print('OK')
         chrome.close()
 def cht9():
@@ -144,7 +144,7 @@ def cht9():
         chrome=webdriver.Chrome(options=op)
         chrome.get('...')
         # print()
-        time.sleep(15)
+        time.sleep(30)
         print('OK')
         chrome.close()
 # def cht10():
@@ -158,7 +158,7 @@ def cht9():
 #         chrome=webdriver.Chrome(options=op)
 #         chrome.get('...')
 #         # print()
-#         time.sleep(15)
+#         time.sleep(30)
 #         print('OK')
 #         chrome.close()
 # def cht11():
@@ -171,7 +171,7 @@ def cht9():
 #         # ایجاد صفحه مورد نظر توسط بات
 #         chrome=webdriver.Chrome(options=op)
 #         chrome.get('...')
-#         time.sleep(15)
+#         time.sleep(30)
 #         print('OK')
 #         chrome.close()
 # def cht12():
@@ -184,7 +184,7 @@ def cht9():
 #         # ایجاد صفحه مورد نظر توسط بات
 #         chrome=webdriver.Chrome(options=op)
 #         chrome.get('...')
-#         time.sleep(15)
+#         time.sleep(30)
 #         print('OK')
 #         chrome.close()
 # def cht13():
@@ -197,7 +197,7 @@ def cht9():
 #         # ایجاد صفحه مورد نظر توسط بات
 #         chrome=webdriver.Chrome(options=op)
 #         chrome.get('...')
-#         time.sleep(15)
+#         time.sleep(30)
 #         print('OK')
 #         chrome.close()
 # def cht14():
@@ -210,7 +210,7 @@ def cht9():
 #         # ایجاد صفحه مورد نظر توسط بات
 #         chrome=webdriver.Chrome(options=op)
 #         chrome.get('...')
-#         time.sleep(15)
+#         time.sleep(30)
 #         print('OK')
 #         chrome.close()
 # def cht15():
@@ -223,7 +223,7 @@ def cht9():
 #         # ایجاد صفحه مورد نظر توسط بات
 #         chrome=webdriver.Chrome(options=op)
 #         chrome.get('...')
-#         time.sleep(15)
+#         time.sleep(30)
 #         print('OK')
 #         chrome.close()
 # def cht16():
@@ -236,7 +236,7 @@ def cht9():
 #         # ایجاد صفحه مورد نظر توسط بات
 #         chrome=webdriver.Chrome(options=op)
 #         chrome.get('...')
-#         time.sleep(15)
+#         time.sleep(30)
 #         print('OK')
 #         chrome.close()
 # def cht17():
@@ -249,7 +249,7 @@ def cht9():
 #         # ایجاد صفحه مورد نظر توسط بات
 #         chrome=webdriver.Chrome(options=op)
 #         chrome.get('...')
-#         time.sleep(15)
+#         time.sleep(30)
 #         print('OK')
 #         chrome.close()
 # def cht18():
@@ -262,7 +262,7 @@ def cht9():
 #         # ایجاد صفحه مورد نظر توسط بات
 #         chrome=webdriver.Chrome(options=op)
 #         chrome.get('...')
-#         time.sleep(15)
+#         time.sleep(30)
 #         print('OK')
 #         chrome.close()
 # def cht19():
@@ -275,7 +275,7 @@ def cht9():
 #         # ایجاد صفحه مورد نظر توسط بات
 #         chrome=webdriver.Chrome(options=op)
 #         chrome.get('...')
-#         time.sleep(15)
+#         time.sleep(30)
 #         print('OK')
 #         chrome.close()
 
@@ -299,7 +299,6 @@ x9 = threading.Thread(target=cht9)
 # x17 = threading.Thread(target=cht17)
 # x18 = threading.Thread(target=cht18)
 # x19 = threading.Thread(target=cht19)
-
 x0.start()
 x1.start()
 x2.start()
@@ -310,6 +309,8 @@ x6.start()
 x7.start()
 x8.start()
 x9.start()
+
+
 # x10.start()
 # x11.start()
 # x12.start()
